@@ -1,1 +1,19 @@
-styles/globals.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalizzazioni base */
+body {
+  background-color: #F5F5F5;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #FF4A4A;
+}
+
+footer {
+  background-color: #EEEEEE;
+}
+
